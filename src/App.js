@@ -8,7 +8,7 @@ import No1 from './pages/No1';
 
 const App = () => {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
