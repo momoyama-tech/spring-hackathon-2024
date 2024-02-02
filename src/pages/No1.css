@@ -1,0 +1,52 @@
+.article-page {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+  
+  .article-header img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .article-header h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .article-header p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .article-content section {
+    margin-bottom: 40px;
+  }
+  
+  .article-content h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .article-content p {
+    color: #666;
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  /* リンクのスタイル */
+  .article-content a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .article-content a:hover {
+    text-decoration: underline;
+  }
+  
