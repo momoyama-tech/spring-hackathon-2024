@@ -2,7 +2,7 @@ import React from 'react';
 import './No1.css'; // スタイルシートを適宜調整してください
 
 // Image URL or local image path
-const imageUrl = '/aaa.png';
+const imageUrl = './aaa.png';
 
 const No4 = () => {
   return (
