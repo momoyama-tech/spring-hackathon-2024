@@ -10,7 +10,7 @@ const No1 = () => {
       <header className="article-header">
         <img src={imageUrl} alt="Music Atelier" className="article-image"/>
         <h1>「Music Atelier」- 音楽制作をもっと身近に</h1>
-        <p>藤倉日菜乃、藤根稜巳、奥信による革新的なプロジェクト</p>
+        <p>FH、TA、Oによる革新的なプロジェクト</p>
       </header>
       <main className="article-content">
         <section>
