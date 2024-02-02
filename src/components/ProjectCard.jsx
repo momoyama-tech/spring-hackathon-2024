@@ -7,13 +7,19 @@ function ProjectCard() {
 
   
   const onClickPage1 = () => {
-    navigate("/topic-page-1"); // トピック1へのパス
+    navigate("/topic-page-1"); 
   };
   const onClickPage2 = () => {
-    navigate("/topic-page-2"); // トピック2へのパス
+    navigate("/topic-page-2"); 
   };
   const onClickPage3 = () => {
-    navigate("/topic-page-3"); // トピック3へのパス
+    navigate("/topic-page-3"); 
+  };
+  const onClickPage4 = () => {
+    navigate("/topic-page-4"); 
+  };
+  const onClickPage5 = () => {
+    navigate("/topic-page-5");
   };
 
   return (
@@ -48,7 +54,7 @@ function ProjectCard() {
           </p>
         </div>
 
-        <div className="topic-item" onClick={onClickPage3}>
+        <div className="topic-item" onClick={onClickPage4}>
           <img src="aaa.png" alt="" />
           <h3 className="topic-subtitle">限界☆ギリギリ卒論制作!</h3>
           <p>
@@ -57,7 +63,7 @@ function ProjectCard() {
           </p>
         </div>
 
-        <div className="topic-item" onClick={onClickPage3}>
+        <div className="topic-item" onClick={onClickPage5}>
           <img src="Mytech.png" alt="" />
           <h3 className="topic-subtitle">
             革命機神ギリギリMusic 〜俺はパチンコが打ちたいんだ〜

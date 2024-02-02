@@ -4,7 +4,7 @@ import './No1.css'; // スタイルシートを適宜調整してください
 // Image URL or local image path
 const imageUrl = '/no3_a.png';
 
-const CollegeTimePass = () => {
+const No3 = () => {
   return (
     <div className="article-page">
       <header className="article-header">
@@ -42,4 +42,4 @@ const CollegeTimePass = () => {
   );
 };
 
-export default CollegeTimePass;
+export default No3;
