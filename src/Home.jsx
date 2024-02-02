@@ -10,7 +10,6 @@ const Home = () => {
       <EventCard/>
       <ProjectCard/>
       <h1>Welcome to TechHack</h1>
-      {/* その他のホームページのコンテンツ */}
     </div>
   );
 }
