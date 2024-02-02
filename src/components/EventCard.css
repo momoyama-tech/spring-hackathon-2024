@@ -1,18 +1,25 @@
 .event-card-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 10px;
-  }
-  
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.event-card {
+  width: 100% !important; /* 横幅を画面の100%に */
+  max-width: 25rem; /* 最大幅を25remに制限 */
+}
+
+@media (min-width: 768px) {
   .event-card {
-    width: 100% !important; /* 横幅を画面の90%に */
-    max-width: 25rem; /* 最大幅を18remに制限 */
+      max-width: 95% !important; /* タブレットやデスクトップでは最大幅を95%に */
   }
-  
-  @media (min-width: 768px) {
-    .event-card {
-      max-width: 95% !important; /* タブレットやデスクトップでは最大幅も90%に */
-    }
-  }
-  
+}
+
+/* PC画面のブレークポイントで画像を非表示に */
+@media (min-width: 992px) {
+.event-card .card-img-top {
+  display: none;
+}
+}
