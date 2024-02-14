@@ -20,13 +20,13 @@ const Schedule = () => (
     <ListGroup variant="flush">
       {/* 2月23日のスケジュール */}
       <ListGroup.Item><strong>2月23日（金）</strong></ListGroup.Item>
-      <ListGroup.Item>9:30 - 大きい教室（ 1-205 ）で開場<br/>（受付、名簿確認、お金徴収）</ListGroup.Item>
+      <ListGroup.Item>9:30 - 大きい教室（1-205）で開場<br/>（受付、名簿確認、お金徴収）</ListGroup.Item>
       <ListGroup.Item>10:00 - 集合完了、イベント開始、イベント説明、アイデアソンチュートリアル、自己紹介</ListGroup.Item>
       <ListGroup.Item>11:00 - 案発表、ロボ団集合</ListGroup.Item>
       <ListGroup.Item>12:30 - 休憩、弁当とるタイム、バッファ</ListGroup.Item>
       <ListGroup.Item>13:00 - チーム決め、チーム企画決め、メンター配属先決定、稼働時間の相談、企画発表資料作り</ListGroup.Item>
       <ListGroup.Item>16:00 - 企画発表、ピザ投票終了</ListGroup.Item>
-      <ListGroup.Item>17:00 - ピザ注文、18時半受け取り</ListGroup.Item>
+      <ListGroup.Item>17:00 - 合宿棟に移動、ピザ注文、18時半受け取り</ListGroup.Item>
       <ListGroup.Item>18:30 - 開発開始</ListGroup.Item>
       <ListGroup.Item>19:00 - 各自お風呂、ピザパーティ開始</ListGroup.Item>
       <ListGroup.Item>21:00 - ピザパーティ終了、22時に一日のみの参加者帰宅</ListGroup.Item>
