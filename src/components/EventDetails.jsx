@@ -20,7 +20,7 @@ const Schedule = () => (
     <ListGroup variant="flush">
       {/* 2月23日のスケジュール */}
       <ListGroup.Item><strong>2月23日（金）</strong></ListGroup.Item>
-      <ListGroup.Item>9:30 - 大きい教室で開場（受付、名簿確認、お金徴収）</ListGroup.Item>
+      <ListGroup.Item>9:30 - 大きい教室（ 1-205 ）で開場<br/>（受付、名簿確認、お金徴収）</ListGroup.Item>
       <ListGroup.Item>10:00 - 集合完了、イベント開始、イベント説明、アイデアソンチュートリアル、自己紹介</ListGroup.Item>
       <ListGroup.Item>11:00 - 案発表、ロボ団集合</ListGroup.Item>
       <ListGroup.Item>12:30 - 休憩、弁当とるタイム、バッファ</ListGroup.Item>
@@ -35,7 +35,7 @@ const Schedule = () => (
       {/* 2月24日のスケジュール */}
       <ListGroup.Item><strong>2月24日（土）</strong></ListGroup.Item>
       <ListGroup.Item>8:00 - ラジオ第四体操</ListGroup.Item>
-      <ListGroup.Item>10:00 - 片付け、大きい教室・小さい教室移動</ListGroup.Item>
+      <ListGroup.Item>10:00 - 片付け、大きい教室（1-205）・小さい教室移動（1-206,207,208,209,210）</ListGroup.Item>
       <ListGroup.Item>14:30 - 開発終了、成果発表</ListGroup.Item>
       <ListGroup.Item>16:00 - メンター陣の話し合い、審査結果発表、表彰式</ListGroup.Item>
       <ListGroup.Item>イベント終了、部長終了の挨拶、打ち上げ</ListGroup.Item>
@@ -63,7 +63,7 @@ const Preparation = () => (
       <ListGroup.Item>気持ち</ListGroup.Item>
       <ListGroup.Item>パソコン</ListGroup.Item>
       <ListGroup.Item>着替え</ListGroup.Item>
-      <ListGroup.Item>お風呂セット（シャンプー、バスタオル、ドライヤー）</ListGroup.Item>
+      <ListGroup.Item>お風呂セット（シャンプー、バスタオル、ドライヤーなど）</ListGroup.Item>
     </ListGroup>
   </Card>
 );
